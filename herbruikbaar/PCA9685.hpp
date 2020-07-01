@@ -1,10 +1,11 @@
-//copyright shit
-
-///@mainpage
+/// @mainpage
+/// Made by Joris Kunkeler \n \n
 /// This library can be used to communicate with the PCA9685 chip over i2c.
 /// The PCA9685 chip has 16 PWM channels wich can be used to drive servo's.
 /// To use one or multiple servo's you can make a PCA9685 object.
 /// Then to make the chip ready for use, you have to use the PCA9685::reset() and PCA9685::set_servo_freq() functions.
+/// This library uses hwlib for arduino i2c interaction and arduino pins.
+/// For more information take a look at hwlib here: https://github.com/wovo/hwlib \n \n
 /// If you want to look at an example on how to use the PCA9685 class you should take a look at the main.cpp file in my Github repository.
 /// I made my own DIY 7 segment mechanical display wich I use as a scoreboard.
 /// To make the scoreboard I used a PCA9685 chip, 7 micro servo's, and a breadboard with a button on it.
@@ -16,7 +17,7 @@
 
 #include "hwlib.hpp"
 
-/// @brief  Class that stores state and functions for interacting with PCA9685 PWM chip
+/// @brief  Class with members and functions for interacting with PCA9685 PWM chip
 class PCA9685 {
 private:
     const hwlib::i2c_bus& i2c_bus;
