@@ -1,6 +1,7 @@
 var NAVTREE =
 [
-  [ "pca9685 pwm servo driver", "index.html", [
+  [ "PCA9685 PWM servo driver", "index.html", [
+    [ "PCA9685_PWM_servo_driver", "md__r_e_a_d_m_e.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
