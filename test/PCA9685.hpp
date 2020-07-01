@@ -6,7 +6,8 @@
 /// Then to make the chip ready for use, you have to use the PCA9685::reset() and PCA9685::set_servo_freq() functions.
 /// This library uses hwlib for arduino i2c interaction and arduino pins.
 /// For more information take a look at hwlib here: https://github.com/wovo/hwlib \n \n
-/// If you want to look at an example on how to use the PCA9685 class you should take a look at the main.cpp file in my Github repository.
+/// If you want to look at an example on how to use the PCA9685 class you should take a look at the main file in my Github repository:
+/// https://github.com/JorisKunk/PCA9685_PWM_servo_driver/blob/master/main.cpp.
 /// I made my own DIY 7 segment mechanical display wich I use as a scoreboard.
 /// To make the scoreboard I used a PCA9685 chip, 7 micro servo's, and a breadboard with a button on it.
 /// To make you're score go up by one just press the button once.
